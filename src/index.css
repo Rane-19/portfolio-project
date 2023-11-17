@@ -4,11 +4,13 @@
 /* Variable CSS */
 :root  {
   /*===== Colors =====*/
-  --first-color: ;
+  --first-color: #ED5AB3 ;
   --title-color: black;
   --text-color: black;
-  --body-color: white;
-  --container-color: #fff;
+  --body-color: #F9F5F6;
+  --container-color: #FFF4F4;
+  --sidebar-color: #F8E8EE;
+  --button-color: pink;
 
   /*Font and Typography*/
   --body-font: 'Bricolage Grotesque', sans-serif;
@@ -132,7 +134,7 @@ img {
   border: 1px solid transparent;
   color: black;
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--button-color);
   font-weight: var(--font-bold);
 }
 
