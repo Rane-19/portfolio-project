@@ -16,7 +16,7 @@
 }
 
 .work__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.875rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .work__title {
-    color: black;
+    color: #fffbfb;
     font-size: var(--h3-font-size);
     margin: 0 0 0.98rem;
     padding: 0 1.25rem;

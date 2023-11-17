@@ -5,6 +5,7 @@ import Logo from "../../assets/logo.svg";
 
 const Sidebar = () => {
     return (
+        <>
         <aside className='aside'>
             <a href="#home" className="nav__logo">
                 <img src={Logo} alt="" />
@@ -14,26 +15,8 @@ const Sidebar = () => {
                 <div className="nav__menu">
                     <ul className="nav__list">
                         <li className="nav__item">
-                            <a href="#home" className="nav__link">
-                                <i className="icon-home"></i>
-                            </a>
-                        </li>
-
-                        <li className="nav__item">
                             <a href="#about" className="nav__link">
                                 <i className="icon-user-following"></i>
-                            </a>
-                        </li>
-
-                        <li className="nav__item">
-                            <a href="#services" className="nav__link">
-                            <i className="icon-briefcase"></i>
-                            </a>
-                        </li>
-
-                        <li className="nav__item">
-                            <a href="#resume" className="nav__link">
-                            <i className="icon-graduation"></i>
                             </a>
                         </li>
 
@@ -44,14 +27,8 @@ const Sidebar = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#blog" className="nav__link">
-                            <i className="icon-user-note"></i>
-                            </a>
-                        </li>
-
-                        <li className="nav__item">
                             <a href="#contact" className="nav__link">
-                            <i className="icon-user-note"></i>
+                            <i className="icon-envelope-open"></i>
                             </a>
                         </li>
 
@@ -63,6 +40,11 @@ const Sidebar = () => {
                 <span className="footer">For educational purposes</span>
             </div>
         </aside>
+
+        <div className="nav__toggle">
+            <i className="icon-menu"></i>
+        </div>
+        </>
     )
 }
 

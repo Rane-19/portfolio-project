@@ -22,7 +22,6 @@ const About = () => {
         <div className="about__info">
           <img src={Image} alt="" className="about__img" />
           <p className="about__description">I'm Lourane, blah blah blah</p>
-          <a href="" className="btn">See projects</a>
         </div>
 
         <div className="about__data grid">
