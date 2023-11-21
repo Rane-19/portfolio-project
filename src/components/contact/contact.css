@@ -23,3 +23,25 @@
     margin-bottom: 1.875rem;
     height: 3.75rem;
 }
+
+.contact__link {
+    display: flex;
+    flex-direction: row-reverse;    
+}
+
+.contact__link {
+    display: flex;
+    flex-direction: row-reverse;    
+}
+
+#linkedin {
+    margin-left: 10rem;
+}
+
+#github {
+    margin-right: auto;
+}
+
+#mail {
+    margin-right: 10rem;
+}

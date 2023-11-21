@@ -14,6 +14,7 @@ const Sidebar = () => {
             <nav className="nav">
                 <div className="nav__menu">
                     <ul className="nav__list">
+                        
                         <li className="nav__item">
                             <a href="#about" className="nav__link">
                                 <i className="icon-user-following"></i>
@@ -37,7 +38,7 @@ const Sidebar = () => {
             </nav>
 
             <div className="nav__footer">
-                <span className="footer">For educational purposes</span>
+                <span className="footer"></span>
             </div>
         </aside>
 

@@ -11,6 +11,7 @@ import Flower from './components/pages/Flower';
 import Movie from './components/pages/Movie';
 
 
+
 const showMain = () => {
   if (window.location.pathname === '/') {
     return (
