@@ -8,9 +8,7 @@ const Contact = () => {
         Let's work together!</h2>
 
         <div className="contact__container grid">
-          <div className="contact__info">
-          </div>
-
+          
           <button className="btn">Email</button>
           <button className="btn">Contact</button>
         </div>

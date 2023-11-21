@@ -5,12 +5,13 @@
     background: var(--sidebar-color);
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     padding: 2.5rem;
-    width: 11opx;
+    width: 110px; /* Fix the typo here */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     z-index: 10;
+    transition: left 0.3s ease; /* Add a transition for smooth animation */
 }
 
 .nav__list {
@@ -55,5 +56,23 @@
 @media screen and (max-width: 1024px) {
     .aside {
         left: -110px;
+        transition: left 0.3s ease;
+        /* Add a transition for smooth animation */
+    }
+
+    .aside.open {
+        left: 0;
+    }
+
+    @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1024px) {
+            .aside {
+                left: -110px;
+            }
+        
+            .aside.open {
+                left: 0;
+            }
+        }
     }
 }

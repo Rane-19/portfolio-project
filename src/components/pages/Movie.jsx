@@ -1,8 +1,8 @@
 import React from 'react';
-import './pages/pages.css';
+import './pages.css';
 
 const Movie = () => {
 
 }
 
-export default Movie
+export default Movie;

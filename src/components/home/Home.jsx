@@ -1,6 +1,6 @@
 import React from 'react';
 import "./home.css";
-import Me from "../../assets/logo.svg";
+import Me from "../../assets/LOGO.svg";
 import ScrollDown from "./scrollDown";
 
 const Home = () => {

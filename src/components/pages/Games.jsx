@@ -1,7 +1,7 @@
 import React from 'react';
 import './pages.css';
 
-const Flower = () => {
+const Games = () => {
     return (
         <section className="portfolio container section" id='portfolio'>
             <h2 className="section__title">JavaScript Pokemon Matching Game</h2>
@@ -19,4 +19,4 @@ const Flower = () => {
     );
 }
 
-export default Flower;
+export default Games;
