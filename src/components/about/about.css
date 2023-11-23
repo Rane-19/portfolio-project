@@ -45,6 +45,33 @@
     font-size: 1.5rem;
 }
 
+.about__img-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+  
+  .about__img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .about__img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .about__img-container:hover .about__img-hover {
+    opacity: 1; /* Make the second image visible on hover */
+  }
+
+
 @media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 720px;

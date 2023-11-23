@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import "./about.css";
-import Image from "../../assets/ME.JPG";
+import './about.css';
+import Image from '../../assets/ME-FINAL.jpg';
+import Image2 from '../../assets/ME.JPG';
 
 const About = () => {
   const [isAccordionOpen, setIsAccordionOpen] = useState(false);
@@ -15,19 +16,28 @@ const About = () => {
   };
 
   return (
-    <section className="about container section" id='about'>
+    <section className="about container section" id="about">
       <h2 className="section__title">About Me</h2>
 
       <div className="about__container grid">
         <div className="about__info">
-          <img src={Image} alt="" className="about__img" />
-          <p className="about__description">I'm Lourane, blah blah blah</p>
+        <p className="about__description">I'm Lourane, blah blah blah</p>  
+          <div className="about__img-container">
+            <img src={Image} alt="" className="about__img" />
+            <img src={Image2} alt="" className="about__img-hover" />
+          </div>
         </div>
+
+
+
 
         <div className="about__data grid">
           <div className={`about__skills ${isAccordionOpen ? 'open' : ''}`}>
             <div className="skills__titles" onClick={toggleAccordion}>
-              <button className="skills__subject">Development</button>
+              <button className="skills__subject">
+                Development
+                <i className="icon-arrow-down"></i>
+              </button>
             </div>
 
             <div className="skills__content">
@@ -52,7 +62,9 @@ const About = () => {
 
           <div className={`about__skills ${isDesignAccordionOpen ? 'open' : ''}`}>
             <div className="skills__titles" onClick={toggleDesignAccordion}>
-              <button className="skills__subject">Design</button>
+              <button className="skills__subject">Design
+              <i className="icon-arrow-down"></i>
+              </button>
             </div>
 
             <div className="skills__content">

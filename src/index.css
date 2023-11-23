@@ -107,6 +107,7 @@ img {
 
 .grid {
   display: grid;
+  align-items: end;
 }
 
 .section {
